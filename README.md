@@ -1,4 +1,4 @@
-# TraceZip-RTL
+# Run-length trace compressor
 
 Lossless streaming run-length encoder for 32-bit diagnostic trace samples.
 
