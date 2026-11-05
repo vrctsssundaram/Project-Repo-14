@@ -7,6 +7,6 @@
 | Run limit | 255 equal samples; longer runs are emitted as multiple records |
 | Status | Accepted input sample count and emitted run count |
 
-## Assumptions and limits
+## Integration profile
 
-This codec compresses repeated samples only; it does not guarantee reduced volume for variable data. No timestamp generation, dictionary coding, trace RAM, decompression engine, or AXI protocol adapter is included.
+Repeated 32-bit values form runs with counts of 1–255. Frame-final flags propagate with the last emitted run.
